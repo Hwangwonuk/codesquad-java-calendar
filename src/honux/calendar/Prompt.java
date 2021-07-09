@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Prompt {
 
-	private final static String PROMPT = "cal> ";
-
 	public void runPrompt() {
 		Scanner scanner = new Scanner(System.in);
 		Calendar cal = new Calendar(); // 여기 물어봐라
